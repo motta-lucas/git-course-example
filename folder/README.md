@@ -13,3 +13,17 @@ hi
 goodbye
 
 docs
+
+# created the repo remotely
+git clone <URL>
+
+# create a ranch locally
+git checkout <branch>
+git checkout -b <new branch>
+git add ...; git commit -m "...." (several times)
+git push --set-upstram origin <new branch>
+
+# create a new branch remotely
+using the GitHub UI to create <branch>
+git fetch --all
+git checkout <branch>
